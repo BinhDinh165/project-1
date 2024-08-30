@@ -102,19 +102,25 @@ a {
   background-color: #c5dbe6;
 }
 .top-buttom a {
+  font-family: Poppins;
+  font-weight: 600;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
-  background-color: #28334d;
-  color: #fdfdfd;
+  border: solid #171715;
+  color: #222c30;
   position: fixed;
   font-size: 20px;
-  bottom: 50px;
-  right: 50px;
+  bottom: 30px;
+  right: 30px;
   z-index: 4;
+}
+.top-buttom a:hover {
+  background-color: #070707;
+  color: white;
 }
 body .head-content {
   padding-top: 52px;
