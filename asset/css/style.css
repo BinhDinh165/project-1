@@ -114,6 +114,7 @@ a {
   font-size: 20px;
   bottom: 50px;
   right: 50px;
+  z-index: 4;
 }
 body .head-content {
   padding-top: 52px;
